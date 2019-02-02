@@ -1,20 +1,18 @@
-# Memory Game Project
-
-## Table of Contents
-
-* [Instructions](#instructions)
-* [Contributing](#contributing)
-
-## Instructions
-
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
-
-To get started, open `js/app.js` and start building out the app's functionality
-
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
-
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
-
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+# memory-game
+It is a simple cool matching cards game 
+# game-logic
+- list cards in an array 
+- shuffle cards with evey page refresh 
+- create an array to list open cards
+- if there is two open cards check if matched or not 
+- if matched stay face up 
+- if not matched face down 
+- if all cards are matched display a congratulation message 
+- there is a timer starts with the game
+- thers is a move counter that count user moves
+- there is a star rating based on the number of user moves
+- there is a repeat button that restart the game
+- number of moves,stars and time are displayed in the congratulation message
+# sources
+- used SweetAlert (https://sweetalert.js.org/guides/) to make the start and congratulation modals
+- used Animate.css (https://github.com/daneden/animate.css) to make open and matched card animation
